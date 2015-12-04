@@ -23,12 +23,11 @@ list-style: none
 }
 
 ul.menu li {
-display: inline
+display: inline-flex;
 }
 
 ul.menu li a {
-margin: auto;
-font-family: Tahoma, Geneva, sans-serif; 
+font-family: sans-serif; 
 text-decoration: none;
 background: #000000;
 font-weight: bold;
@@ -44,3 +43,28 @@ background: #ff0000;
 color: #fff700; 
 border-radius: 20px 20px;
 }
+
+.tab{
+    font-size:24px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+tr{
+   font-size:24px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+td{
+    font-size:24px;  
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+frameset{
+    border: 0pxl
+}
+caption {
+    font-size: 48px;
+}
+
+figure{
+    text-align: center; }
