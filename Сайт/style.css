@@ -1,0 +1,47 @@
+body{
+    background-image: url(main1.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+        
+}
+
+#page{ width: 960px;
+    margin: 0 auto;
+    
+}
+p{
+   margin-top: 20px; 
+    font-size: 64px;
+    color: #fff700;
+    font-weight: bold;
+    text-align: center; 
+    text-transform: uppercase; 
+        
+}
+ul.menu {
+list-style: none
+}
+
+ul.menu li {
+display: inline
+}
+
+ul.menu li a {
+font-family: Tahoma, Geneva, sans-serif; 
+text-decoration: none;
+background: #000000;
+font-weight: bold;
+color: #fff700; 
+padding: 6px 10px 6px 10px
+}
+
+ul.menu li a:hover {
+padding: 6px 10px 6px 10px;
+font-weight: bold;
+background: #000000;
+color: #fff700; 
+}
+
+ul.menu li a.selected {
+background: #364e95
+}
